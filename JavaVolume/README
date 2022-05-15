@@ -1,0 +1,4 @@
+
+docker build -t shaji_javavolume:0.1 .
+
+docker run -v test_volume:/var/lib/docker/volumes/test_volume/_data shaji_javavolume:0.1

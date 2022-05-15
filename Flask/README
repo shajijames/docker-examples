@@ -1,0 +1,6 @@
+
+docker build -t shaji_flask:0.1 .
+
+docker run -d -p 8000:5000 shaji_flask:0.1
+
+curl localhost:8000
