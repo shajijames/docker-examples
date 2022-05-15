@@ -2,6 +2,6 @@
 FROM ubuntu:18.04
 COPY . /app
 RUN apt update && apt install -y make
-RUN apt update && apt install -y python
+RUN apt update && apt install -y python3
 RUN make /app
-CMD python /app/app.py
+CMD python3 /app/app.py

@@ -1,4 +1,4 @@
 
-docker build -t shaji_test:0.1 .
+docker build -t shaji_python:0.1 .
 
-docker run shaji_test:0.1
+docker run shaji_python:0.1
